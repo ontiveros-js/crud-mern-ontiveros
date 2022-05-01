@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/crud-mern-ontiveros/static/css/main.74029c6e.css",
+    "main.js": "/crud-mern-ontiveros/static/js/main.5d9a6edd.js",
+    "static/js/27.07bc2567.chunk.js": "/crud-mern-ontiveros/static/js/27.07bc2567.chunk.js",
+    "index.html": "/crud-mern-ontiveros/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.74029c6e.css",
+    "static/js/main.5d9a6edd.js"
+  ]
+}
