@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Form from './components/Form'
+import "animate.css"
+import CardNotes from './components/CardNotes'
+import Context from './context/Context'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Context>
+    <div className="container h-100 pt-4">
+      <div className="row h-100">
+        <div className="col-md-4">
+          <Form/>
+        </div>
+        <div className="col-md-8">
+          <CardNotes/>
+        </div>
+      </div>
     </div>
+    </Context>
   );
 }
 
